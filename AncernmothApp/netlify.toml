@@ -1,0 +1,9 @@
+[build]
+  base = "AncernmothApp"
+  command = "npm ci && npm run build"
+  publish = "AncernmothApp/build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
